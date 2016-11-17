@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JqueryDatepicker</title>
+  	<link rel="stylesheet" href="http://code.jquery.com/ui/1.8.23/themes/base/jquery-ui.css">
+	<script src="http://code.jquery.com/jquery-1.8.2.js"></script>
+	<script src="http://code.jquery.com/ui/1.8.23/jquery-ui.js"></script>
+	<link rel="stylesheet" href="http://jqueryui.com/resources/demos/style.css">
+	<link rel="stylesheet" type="text/css" href="stylesheet.css" />
+
+</head>
+<body>
+
+	<div class="jquerypicker">
+		<ul>
+			<li>
+				<button id="single-selector" value="Single-Selector" style="text-decoration: underline;">Date</button>
+					<div class="appear">
+						<input type="button" id="singledate" value="Date" style="background-color: transparent;background-repeat: no-repeat;border: none;cursor: pointer;overflow: hidden;outline: none;font-size: 12px;">
+						<input type="button" id="singleweek" value="Week" style="background-color: transparent;background-repeat: no-repeat;border: none;cursor: pointer;overflow: hidden;outline: none;font-size: 12px;">
+						<input type="button" id="singlemonth" value="Month" style="background-color: transparent;background-repeat: no-repeat;border: none;cursor: pointer;overflow: hidden;outline: none;font-size: 12px;">
+						<label>Quarter Year <select id="quarteryear"></select></label>
+						<label>Half Year <select id="halfyear"></select></label>
+						<input type="button" id="startYear" class="date-picker-year" value="Year" style="background-color: transparent;background-repeat: no-repeat;border: none;cursor: pointer;overflow: hidden;outline: none;font-size: 12px;">
+					</div>
+			</li>
+		</ul>
+		<ul>
+			<li>
+				<button id="range-selector" value="Range-Selector" style="text-decoration: underline;">Range</button>
+					<div class="range-appear">
+						<label>Dates<input type="radio" value="date-range"></label>
+							<div class="range box">
+								<input id="fromdate" type="text" value="From: ">
+								<input id="todate" type="text" value="To: ">
+							</div>
+						<label>Weeks<input type="radio" value="week-range"></label>
+							<div class="week box">
+								<input id="fromweek" type="text" value="From: ">
+								<input id="toweek" type="text" value="To: ">
+							</div>
+						<label>Months<input type="radio" value="month-range"></label>
+							<div class="month box">
+								<input id="frommonth" type="text" value="From: ">
+								<input id="tomonth" type="text" value="To: ">
+							</div>
+						<label>Years<input type="radio" value="year-range"></label>
+							<div class="year box">
+								<input id="fromyear" type="text" value="From: ">
+								<input id="toyear" type="text" value="To: ">
+							</div>
+					</div>
+			</li>
+		</ul>
+	</div>
+								<!-- <br>
+								<br>
+								<br>
+	
+	<div class="monthselect">
+
+		<label>Month: <select class="form-control" id="yearMonthInput"></select></label>
+
+	</div> -->
+								
+	 <script type="text/JavaScript" src="javascript.js"></script>
+</body>
+</html>
+		 		
